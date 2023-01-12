@@ -1,0 +1,14 @@
+h3 {color: red}
+.my-headers { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) { 
+    
+      .wide-headers {
+        display: none;
+      } 
+    } 
+  
